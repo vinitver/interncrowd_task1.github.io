@@ -1,0 +1,268 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(255, 255, 255);
+}
+.menu{
+    width: 100%;
+    float: left;
+    height: 70px;
+    color: aliceblue;
+}
+ul{
+    font-family: 'Lato', sans-serif;
+
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+.home{
+    text-shadow: 3px 3px 3px white;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.a{
+    margin-left: 40px;
+}
+a:hover{
+    text-shadow: 3px 2px 3px white;
+
+}
+.navbar{
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    background-color: black;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    margin-right: 480px;
+}
+
+.logo{
+    color: #f3f3f3;
+    font-size: 33px;
+    font-family: Arial;
+    padding-left: 40px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+.imgs{
+    height: 530px;
+    margin-left: 0%;
+    padding-left: 0%;
+    margin-top: 110px;
+}
+
+.content{
+    font-size: 40px;
+    width: 37%;
+    position: absolute;
+    top: 35%;
+    line-height: 50px;
+    left: 60%;
+    font-family: 'Lato', sans-serif;
+}
+.buttonexplore{
+    height: 50px;
+    width: 150px;
+    font-size: 30px;
+    position: absolute;
+    top: 62%;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 7px;
+    letter-spacing: 2px;
+    left: 60%;
+    box-shadow: 5px 5px 5px rgb(205, 205, 205);
+}
+
+.buttonexplore:hover{
+    background-color: aliceblue;
+    color: black;
+    border: 0px;
+}
+.head{
+    position: absolute;
+    top: 110%;
+    font-size: 25px;
+    color: aliceblue;
+    left: 37%;
+}
+.frame{
+    background-color: rgb(232, 111, 254);
+    padding-top: 175px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+}
+.card{
+    
+    background-color: rgb(255, 255, 255);
+    height: 450px;
+    
+    width: 13.5%;
+    box-shadow: 10px 10px 10px rgb(222, 70, 249);
+    border-radius: 10px;
+}
+.card:hover{
+    box-shadow: 10px 10px 10px rgb(112, 5, 131);
+}
+.fit{
+    height: 120px;
+    margin-left: 5px;
+    margin-top: 40px;
+}
+.fit1{
+    height: 120px;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.fit2{
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.fit3{
+    height: 120px;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+.card1{
+    background-color: rgb(255, 255, 255);
+    height: 450px;
+    border-radius: 10px;
+    width: 13%;
+    
+    box-shadow: 10px 10px 10px rgb(222, 70, 249);
+    border-radius: 10px;
+    position: absolute;
+    top: 125%;
+    left: 20%;
+}
+.card2{
+    background-color: rgb(255, 255, 255);
+    height: 450px;
+    
+    box-shadow: 10px 10px 10px rgb(222, 70, 249);
+    border-radius: 10px;
+    width: 13%;
+    position: absolute;
+    top: 125%;
+    left: 35%;
+}
+.topic{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+.describe{
+    margin-top: 20px;
+    margin-left: 27px;
+    margin-right: 27px;
+    line-height: 28px;
+    font-size: 18px;
+    text-align: center;
+}
+.card3{
+    background-color: rgb(255, 255, 255);
+    height: 450px;
+    
+    box-shadow: 10px 10px 10px rgb(222, 70, 249);
+    border-radius: 10px;
+    width: 13%;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+}
+.card4{
+    background-color: rgb(255, 255, 255);
+    height: 450px;
+    
+    box-shadow: 10px 10px 10px rgb(222, 70, 249);
+    border-radius: 10px;
+    width: 13%;
+    position: absolute;
+    top: 125%;
+    left: 65%;
+}
+.card5{
+    background-color: rgb(255, 255, 255);
+    height: 450px;
+    
+    box-shadow: 10px 10px 10px rgb(222, 70, 249);
+    border-radius: 10px;    
+    width: 13%;
+    position: absolute;
+    top: 125%;
+    left: 80%;
+}
+.card1:hover{
+    box-shadow: 10px 10px 10px rgb(112, 5, 131);
+}
+.card2:hover{
+    box-shadow: 10px 10px 10px rgb(112, 5, 131);
+}
+.card3:hover{
+    box-shadow: 10px 10px 10px rgb(112, 5, 131);
+}
+.card4:hover{
+    box-shadow: 10px 10px 10px rgb(112, 5, 131);
+}
+.card5:hover{
+    box-shadow: 10px 10px 10px rgb(112, 5, 131);
+}
+.foothead{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 70px;
+    color: rgb(0, 0, 0);
+    left: 37%;
+}.footer{
+    width: 65%;
+    margin-left: 17%;
+}
+.footcontent{
+    margin-top: 15px;
+    margin-left: 27px;
+    margin-right: 27px;
+    margin-bottom: 30px;
+    line-height: 28px;
+    font-size: 18px;
+    text-align: center;
+}
+.fit5{
+    margin-left: 44%;
+    height: 40px;
+    margin-right: 7px;
+    margin-bottom: 50px;
+}
+.fit6{
+    height: 40px;
+    margin-bottom: 50px;
+    margin-right: 7px;
+}
+.fit7{
+    height: 40px;
+    margin-bottom: 50px;
+}
